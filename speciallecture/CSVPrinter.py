@@ -8,7 +8,6 @@ class CSVPrinter:
         with open(self.file_name) as f:
             reader = csv.reader(f)
             lines = [row for row in reader]
-            print(lines)
             return lines
 
 
